@@ -1,0 +1,12 @@
+section {
+  background: $main-lightest;
+}
+.content {
+  max-width: 100%;
+  margin: 20px 10px 50px 20px;
+
+  @include md {
+    max-width: 750px;
+    margin: 50px auto 100px;
+  }
+}
